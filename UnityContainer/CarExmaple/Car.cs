@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace UnityContainer.CarExmaple
+namespace Unity_Container.CarExmaple
 {
     public interface ICar
     {
@@ -51,7 +51,7 @@ namespace UnityContainer.CarExmaple
             _car = car;
         }
 
-        public void Run()
+        public void RunCar()
         {
             Console.WriteLine("Running {0} - {1} mile ", _car.GetType().Name, _car.Run());
         }
