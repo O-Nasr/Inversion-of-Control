@@ -1,4 +1,5 @@
 ﻿using Unity_Container.Using_UnityContainer;
+using Unity_Container.Using_UnityContainer.Method_Injection;
 using Unity_Container.Using_UnityContainer.Property_Injection;
 
 namespace Unity_Container
@@ -15,7 +16,8 @@ namespace Unity_Container
 
             //RegisterAndResolve.MainTest();
             //ConstructorInjection.MainTest();
-            PropertyInjection.MainTest();
+            //PropertyInjection.MainTest();
+            MethodInjection.MainTest();
         }
     }
 }
