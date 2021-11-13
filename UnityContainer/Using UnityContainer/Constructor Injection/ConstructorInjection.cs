@@ -1,9 +1,9 @@
 ﻿using Microsoft.Practices.Unity;
 using Unity_Container.CarExmaple;
 
-namespace Unity_Container.Using_UnityContainer
+namespace Unity_Container.Using_UnityContainer.Constructor_Injection
 {
-    public class Constructor_Injection
+    public class ConstructorInjection
     {
         public static void MainTest()
         {

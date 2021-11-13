@@ -1,9 +1,9 @@
-﻿using Microsoft.Practices.Unity;
-using System;
+﻿using System;
+using Unity_Container.CarExmaple;
 
-namespace Unity_Container.CarExmaple
+namespace Unity_Container.Using_UnityContainer.Register_And_Resolve
 {
-    public class Driver
+    internal class Driver
     {
         private ICar _car = null;
 

@@ -1,6 +1,5 @@
-﻿using Microsoft.Practices.Unity;
-using Unity_Container.CarExmaple;
-using Unity_Container.Using_UnityContainer;
+﻿using Unity_Container.Using_UnityContainer;
+using Unity_Container.Using_UnityContainer.Property_Injection;
 
 namespace Unity_Container
 {
@@ -10,9 +9,13 @@ namespace Unity_Container
         {
             //https://www.tutorialsteacher.com/ioc
 
+            /*CarExmaple.Driver driver = new CarExmaple.Driver(new BMW());
+
+            driver.RunCar();*/
 
             //RegisterAndResolve.MainTest();
-            Constructor_Injection.MainTest();
+            //ConstructorInjection.MainTest();
+            PropertyInjection.MainTest();
         }
     }
 }

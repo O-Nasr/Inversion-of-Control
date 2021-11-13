@@ -2,7 +2,7 @@
 using Unity_Container.CarExmaple;
 
 
-namespace Unity_Container.Using_UnityContainer
+namespace Unity_Container.Using_UnityContainer.Register_And_Resolve
 {
     public class RegisterAndResolve
     {
@@ -33,6 +33,7 @@ namespace Unity_Container.Using_UnityContainer
 
             ///////////////////////////////////////////////////////////////
             //Multiple Registration
+
             /*container.RegisterType<ICar, BMW>();
             container.RegisterType<ICar, Audi>();
 
@@ -43,6 +44,7 @@ namespace Unity_Container.Using_UnityContainer
             ////////////////////////////////////////////////////////////////////
             ///Register Named Type
             ///
+
             /*
             container.RegisterType<ICar, BMW>();
             container.RegisterType<ICar, Audi>("LuxuryCar");
