@@ -8,7 +8,11 @@ namespace Unity_Container
     {
         static void Main(string[] args)
         {
-            RegisterAndResolve.MainTest();
+            //https://www.tutorialsteacher.com/ioc
+
+
+            //RegisterAndResolve.MainTest();
+            Constructor_Injection.MainTest();
         }
     }
 }

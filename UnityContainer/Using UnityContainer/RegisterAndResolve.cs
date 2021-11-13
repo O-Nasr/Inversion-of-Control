@@ -43,7 +43,8 @@ namespace Unity_Container.Using_UnityContainer
             ////////////////////////////////////////////////////////////////////
             ///Register Named Type
             ///
-            /*container.RegisterType<ICar, BMW>();
+            /*
+            container.RegisterType<ICar, BMW>();
             container.RegisterType<ICar, Audi>("LuxuryCar");
 
             ICar bmw = container.Resolve<ICar>(); // returns the BMW object
@@ -55,7 +56,8 @@ namespace Unity_Container.Using_UnityContainer
             driver1.RunCar();
 
             Driver driver2 = container.Resolve<Driver>("LuxuryCarDriver"); // injects Audi
-            driver2.RunCar();*/
+            driver2.RunCar();
+            */
 
             //////////////////////////////////////////////////////////////////////////
             ///Register Instance
